@@ -5,7 +5,7 @@ import os
 # ודא שהתיקיה קיימת
 os.makedirs("/data", exist_ok=True)
 
-df = ps.DataFrame({
+df = pd.DataFrame({
     "name": ["Dan", "Roey", "Nofar"],
     "score": [90, 85, 95]
 })
